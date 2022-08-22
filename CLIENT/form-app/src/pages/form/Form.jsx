@@ -54,7 +54,7 @@ export const Form = () => {
     try {
       const response = await axios({
         method: "GET",
-        url: `http://codeify.dev/submit-feedback.php?feedback=${feedback}`,
+        url: `https://codeify.dev/submit-feedback.php?feedback=${feedback}`,
         withCredentials: false,
       }
       );
